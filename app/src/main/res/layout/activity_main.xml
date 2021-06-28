@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8E5E5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#4E4444"
+        android:textSize="200sp"
+        android:layout_marginTop="56dp"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/txtButton"
+        android:textAllCaps="false"
+        android:layout_width="200dp"
+        android:layout_height="150sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:text="Click"
+        android:textSize="50sp"
+        android:backgroundTint="#F14242"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        tools:ignore="OnClick"/>
+</RelativeLayout>
